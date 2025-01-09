@@ -119,7 +119,7 @@ Dil_Text = ("ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ
 @app.on_callback_query(filters.regex("dilXaditi") & ~BANNED_USERS)
 @languageCB
 async def first_pagexx(client, CallbackQuery, _):
-    menu_next = second_page(_)
+    menu_next = help_pannel(_)
     try:
         await CallbackQuery.message.edit_text(Dil_Text, reply_markup=menu_next)
         return
@@ -129,7 +129,7 @@ async def first_pagexx(client, CallbackQuery, _):
 @app.on_callback_query(filters.regex("Adisa") & ~BANNED_USERS)
 @languageCB
 async def first_pagee(client, CallbackQuery, _):
-    menu_next = second_page(_)
+    menu_next = help_pannel(_)
     try:
         await CallbackQuery.message.edit_text(Dil_Text, reply_markup=menu_next)
         return

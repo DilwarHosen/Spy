@@ -93,7 +93,7 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        await message.reply_sticker("CAACAgUAAxkBAAEKJ05mRoqy1nAqrtPU3zug4a5qFhPWPwACAwwAAv5IIFd_SHjDg6Zx9DUE")
+        await message.reply_sticker("CAACAgUAAx0CX5hlRAABAgLKZ391TkQM_M4t3zYzVdUQETSv1HIAAgMMAAL-SCBXf0h4w4OmcfQeBA")
         await message.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["start_2"].format(message.from_user.mention, app.mention),
@@ -111,7 +111,7 @@ async def start_pm(client, message: Message, _):
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
-        await message.reply_sticker("CAACAgUAAxkBAAEKJ05mRoqy1nAqrtPU3zug4a5qFhPWPwACAwwAAv5IIFd_SHjDg6Zx9DUE")
+        await message.reply_sticker("CAACAgUAAx0CX5hlRAABAgLKZ391TkQM_M4t3zYzVdUQETSv1HIAAgMMAAL-SCBXf0h4w4OmcfQeBA")
         await message.reply_photo(
         photo=config.START_IMG_URL,
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),

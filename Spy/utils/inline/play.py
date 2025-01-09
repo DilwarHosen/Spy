@@ -68,7 +68,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="[🇮🇳] Aʟᴏɴᴇ", url=f"https://t.me/AloneHuVai"
+                text="[🇮🇳] Aʟᴏɴᴇ", user_id=config.OWNER_ID,
             ),
             InlineKeyboardButton(
                 text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/AloneXBots"
@@ -90,13 +90,13 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="[🇮🇳] Aʟᴏɴᴇ", url=f"https://t.me/AloneHuVai"
+                text="[🇮🇳] 𝐀ʟᴏɴᴇ", user_id=config.OWNER_ID,
             ),
             InlineKeyboardButton(
-                text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/AloneXBots"
+                text="𝐔ᴘᴅᴀᴛᴇs", url=f"https://t.me/AloneXBots"
             ),
         ],
-        [InlineKeyboardButton(text="[✗]Cʟᴏsᴇ[✗]", callback_data="close")],
+        [InlineKeyboardButton(text="[✗]𝐂ʟᴏsᴇ[✗]", callback_data="close")],
     ]
     return buttons
 

@@ -37,8 +37,8 @@ async def start_pm(client, message: Message, _):
       #  await message.react(random_emoji)
   #  except Exception as e:
      #   print(f"Error reacting with emoji: {e}")
-  #  if len(message.text.split()) > 1:
-     #   name = message.text.split(None, 1)[1]
+    if len(message.text.split()) > 1:
+        name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = first_page(_)
             return await message.reply_photo(

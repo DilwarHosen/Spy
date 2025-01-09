@@ -4,7 +4,7 @@ from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from Spy import app
-from Spy.utils import first_page, second_page
+from Spy.utils import help_pannel, second_page
 from Spy.utils.database import get_lang
 from Spy.utils.decorators.language import LanguageStart, languageCB
 from Spy.utils.inline.help import help_back_markup, private_help_panel
@@ -24,7 +24,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         chat_id = update.message.chat.id
         language = await get_lang(chat_id)
         _ = get_string(language)
-        keyboard = first_page(_)
+        keyboard = help_pannel(_)
         await update.edit_message_text(
             _["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard
         )
@@ -35,7 +35,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
             pass
         language = await get_lang(update.chat.id)
         _ = get_string(language)
-        keyboard = first_page(_)
+        keyboard = help_pannel(_)
         await update.reply_photo(
             photo=START_IMG_URL,
             caption=_["help_1"].format(SUPPORT_CHAT),
@@ -53,7 +53,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         chat_id = update.message.chat.id
         language = await get_lang(chat_id)
         _ = get_string(language)
-        keyboard = first_page(_)
+        keyboard = help_pannel(_)
         await update.edit_message_text(_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
     else:
         try:
@@ -62,7 +62,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
             pass
         language = await get_lang(update.chat.id)
         _ = get_string(language)
-        keyboard = first_page(_)
+        keyboard = help_pannel(_)
         await update.reply_photo(photo=START_IMG_URL, caption=_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
     
 

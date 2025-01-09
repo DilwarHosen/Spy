@@ -74,7 +74,7 @@ def aq_markup(_, chat_id):
         #],
         [
             InlineKeyboardButton(
-                text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=config.OWNER_ID,
+                text="𓊈💥🔥𝔻eͥѵeͣlͫ𐍉קeℝ🔥💥𓊉", user_id=config.OWNER_ID,
             ),
         ],
     ]

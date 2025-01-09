@@ -4,7 +4,7 @@ from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from Spy import app
-from Spy.utils import help_pannel, second_page
+from Spy.utils import help_pannel
 from Spy.utils.database import get_lang
 from Spy.utils.decorators.language import LanguageStart, languageCB
 from Spy.utils.inline.help import help_back_markup, private_help_panel

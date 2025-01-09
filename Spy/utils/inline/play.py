@@ -60,6 +60,9 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
+            InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
+        ],
+        [
             InlineKeyboardButton(text="❚❚", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
@@ -68,13 +71,13 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="[🇮🇳] Aʟᴏɴᴇ", user_id=config.OWNER_ID,
+                text="[🇮🇳] 𝐎ᴡɴᴇʀ", user_id=config.OWNER_ID,
             ),
             InlineKeyboardButton(
-                text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/AloneXBots"
+                text="𝐔ᴘᴅᴀᴛᴇs", url=f"https://t.me/AloneXBots"
             ),
         ],
-        [InlineKeyboardButton(text="[✗]Cʟᴏsᴇ[✗]", callback_data="close")],
+        [InlineKeyboardButton(text="[✗]𝐂ʟᴏsᴇ[✗]", callback_data="close")],
     ]
     return buttons
 
@@ -82,6 +85,9 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
+            InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
+        ],
+        [
             InlineKeyboardButton(text="❚❚", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
@@ -90,7 +96,7 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="[🇮🇳] 𝐀ʟᴏɴᴇ", user_id=config.OWNER_ID,
+                text="[🇮🇳] 𝐎ᴡɴᴇʀ", user_id=config.OWNER_ID,
             ),
             InlineKeyboardButton(
                 text="𝐔ᴘᴅᴀᴛᴇs", url=f"https://t.me/AloneXBots"

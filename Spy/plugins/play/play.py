@@ -56,7 +56,7 @@ async def play_commnd(
     url,
     fplay,
 ):
-    Emoji = random.choice(EMOJII)
+   # Emoji = random.choice(EMOJII)
     mystic = await message.reply_text(
         _["play_2"].format(channel) if channel else Emoji
     )

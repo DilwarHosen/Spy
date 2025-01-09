@@ -32,10 +32,10 @@ VALID_EMOJII = ["🔥", "💋", "🥺", "😒", "💖",
 @LanguageStart
 async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
-   # random_emoji = random.choice(VALID_EMOJII)  # Pick a valid emoji
-   # try:
+  #  random_emoji = random.choice(VALID_EMOJII)  # Pick a valid emoji
+ #   try:
       #  await message.react(random_emoji)
-  #  except Exception as e:
+   # except Exception as e:
      #   print(f"Error reacting with emoji: {e}")
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
@@ -110,7 +110,7 @@ async def start_pm(client, message: Message, _):
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
-        await message.reply_photo(
+    await message.reply_photo(
         photo=config.START_IMG_URL,
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),

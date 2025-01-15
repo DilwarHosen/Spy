@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "27412915"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "3fcf3b84e1bad89d67c216c0750da858")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAEYXKKJbGzUDGK4fLxo53IB5YCCsHhb9NU")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -21,7 +21,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001603822916"))
 
 BOTADDLOGS = int(getenv("BOTADDLOGS", "-1001603822916")) 
 
@@ -68,7 +68,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQGHA7AAkJBZj94peOvZ_EGJVh-0qJYx69E6xcT11xYZ83hu80CyByuFAS766zbVk2UqlRNCtH5hPTVMV1TN__mGKMeGBmrzlZu54-JKYUlWjP4OiHnXEZHv6xeWwmB_0CZGRVu11HswCHxNX2ZlRXcmksePqEddrouLyZUnvfnTZm1FwxcZkVcV1lZ_HiWHm1fNrlBlZubTdQvG62yAiSKxY9BIStJYAl5mpVev59fsJLo5c6LEorLqUwPWWe8Wfl0MZQL4G36aTDp9r5XzttZVrJupEulJ5wUbYUbdEDhRp-9ey7VV-AZW8MjwzkBtllOlWrT9P6Ve0cuFvYYgH9JKAlDuowAAAAHb6yWUAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)

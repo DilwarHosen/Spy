@@ -8,45 +8,7 @@
 
 <p align="center"><a href="https://t.me/HONEY_SINGH_121"><img src="https://telegra.ph/file/abc96d1ec9d101df8f988.jpg"></a></p>
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>  
- <p align="center">
-    A Telegram bot to play music in a video chats.
-    <br />
-   </strong></a>
-  </p>
-
-
-<hr>
-
-## 🍁 About This Bot :
-
-![streamingfilestreambot-professional-live_1](https://user-images.githubusercontent.com/88939380/137127129-a86fc939-2931-4c66-b6f6-b57711a9eab7.png)
-
-</p>
-<p align='center'>
-    This repo will use to deploy for music playing bot of telegram
-</p>
-
-
-## ♢ How to make your own :
-
-
-#### ♢ Click on This Drop-down and get more details
-<br>
-<details>
-  <summary><b>Deploy on Heroku:</b></summary>
-
-
-1. Fork This Repo
-2. Click on the button to Deploy and follow steps
-
-<h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
-
-Press the below button to Fast deploy on Heroku/Raiwlay
-Either you could locally host or deploy on [Heroku](https://heroku.com)
-### 💜 Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
+<aokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
 
 <br>
 

@@ -2,7 +2,6 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.youtube.com	TRUE	/	TRUE	1740016403	GPS	1
 .youtube.com	TRUE	/	TRUE	0	YSC	SsO18Vo7Qic
 .youtube.com	TRUE	/	TRUE	1755566637	VISITOR_INFO1_LIVE	vrtchDm-psA
 .youtube.com	TRUE	/	TRUE	1755566637	VISITOR_PRIVACY_METADATA	CgJJThIEGgAgFQ%3D%3D
@@ -44,9 +43,8 @@ gds.google.com	FALSE	/	TRUE	1742606629	OTZ	7961844_34_34__34_
 .youtube.com	TRUE	/	TRUE	1771550636	__Secure-1PSIDTS	sidts-CjIBEJ3XVyy0N2Zg_xXgcw8tWzka4snGz5NtNBjI8cCtA1mQ1MBXMBcQte1zxj8FJR0ZBBAA
 .youtube.com	TRUE	/	TRUE	1771550636	__Secure-3PSIDTS	sidts-CjIBEJ3XVyy0N2Zg_xXgcw8tWzka4snGz5NtNBjI8cCtA1mQ1MBXMBcQte1zxj8FJR0ZBBAA
 .youtube.com	TRUE	/	TRUE	1774574637	LOGIN_INFO	AFmmF2swRQIhAM-tlm_FtXQbbfbtpqxZBZyxVLIszm9zrAy5l7Wph-ytAiAwvOxef49J5EzCsq3IwUAv4LJp4zkGcCz3uiqVj35KpQ:QUQ3MjNmeGc0SUpZLTdBcXo2SXVwMDFYWVZka3NIcmptamFnTTlqSmx2bV9uVXpiUmdTQmRSNzdFek8ya0wzdGs2VGxjZVBGY0xlR0tXWUJxVm83Z2Z0dzdnY3NDZDNFaE1QTG01ZExFRDhxNUNuV2FyR2hLSGIyYmZyR2JvaGNDZTNFZGZyY0tueVBZM0FvTkN1aW1xd0lmeGU4eERHN3Z3
-.youtube.com	TRUE	/	TRUE	1740014757	YTSESSION-jnufdw	ANPz9KgL/IQbHekQtbDhfp1C1v9w1lXSbuu0r3PSyAYHteiuwMaXqiS5D+FxCkwTNxCRKxwlPZJTFdehfiYWhyX21kEpUbvXzwH4oGo=
 .youtube.com	TRUE	/	TRUE	1755566637	__Secure-ROLLOUT_TOKEN	CM6A_M7F6NWTKxCa37XCi9GLAxiWgNzSi9GLAw%3D%3D
-.youtube.com	TRUE	/	TRUE	1774574652	PREF	f6=40000000&tz=Asia.Calcutta&f7=100
+.youtube.com	TRUE	/	TRUE	1774576796	PREF	f6=40000000&tz=Asia.Calcutta&f7=100
 accounts.google.com	FALSE	/	TRUE	1774574663	LSID	o.chromewebstore.google.com|o.gds.google.com|s.IN|s.youtube:g.a000twhZ91AeKFcI4B1zeVa_yiLctpWgzeOWfwzSUp2OO9dmjQ5xT8rtppMCROTZMUkoa4HThwACgYKAUMSARQSFQHGX2MiNN_wi9T0BFbLWdOTQPaQdxoVAUF8yKrZyzatcSTwrGFf1cgkxaiO0076
 accounts.google.com	FALSE	/	TRUE	1774574663	__Host-1PLSID	o.chromewebstore.google.com|o.gds.google.com|s.IN|s.youtube:g.a000twhZ91AeKFcI4B1zeVa_yiLctpWgzeOWfwzSUp2OO9dmjQ5xcAfgWTUPgXWWEswM5M7tBwACgYKAdwSARQSFQHGX2Mi2wg0UiVjUD_2q4AKJ0mPLBoVAUF8yKr9P-d6QI29-2XPKHyqvise0076
 accounts.google.com	FALSE	/	TRUE	1774574663	__Host-3PLSID	o.chromewebstore.google.com|o.gds.google.com|s.IN|s.youtube:g.a000twhZ91AeKFcI4B1zeVa_yiLctpWgzeOWfwzSUp2OO9dmjQ5xRzckOSkEZmYFa1eBGCe5xAACgYKAU4SARQSFQHGX2MilQA8AzzXP0NOPGw0Z-LaRRoVAUF8yKr-IB4krRUqmR7k_L6aD4EB0076
@@ -56,10 +54,10 @@ chromewebstore.google.com	FALSE	/	TRUE	1774574663	__Secure-OSID	g.a000twhZ97dh4w
 chromewebstore.google.com	FALSE	/	TRUE	1742606665	OTZ	7961844_34_34__34_
 ogs.google.com	FALSE	/	TRUE	1742606669	OTZ	7961844_34_34__34_
 .chromewebstore.google.com	TRUE	/	FALSE	1774574678	_ga_KHZNC1Q6K0	GS1.1.1740014665.1.1.1740014678.0.0.0
-.doubleclick.net	TRUE	/	TRUE	1740015587	test_cookie	CheckForPermission
 .google.com	TRUE	/	FALSE	1771550700	SIDCC	AKEyXzUCiVQr2cuERPUCTRa7JxG1xIgYdQGKhPn-WwYZOBPy2ldt3mrsV_G67Nb_NWO-arQQ7Q
 .google.com	TRUE	/	TRUE	1771550700	__Secure-1PSIDCC	AKEyXzXdAMR-fqEm5in1AET8oGm39cm_IuX-tBTN-tlCNVYqfmzCDpu3l-9YbVi_sdFkeNQU2Q
-.google.com	TRUE	/	TRUE	1771550700	__Secure-3PSIDCC	AKEyXzUD5Obk8w1qxqb_FmDI4lYVYGpxIg9coc4H1hEdSYoR10cYumqO68cTIQXVwudvEIIH
-.youtube.com	TRUE	/	FALSE	1771550704	SIDCC	AKEyXzWU0MuTpH-v7WSiLdqEnDYdwPqza5mC_vHGbQQwnirEBZkrw_7nBwi_RaVbkQm-Q8OhEQ
-.youtube.com	TRUE	/	TRUE	1771550704	__Secure-1PSIDCC	AKEyXzW4gfidHXIWwPG21mFsgcD5ZaaYptrITU6O_OkH5RZ_xp2qBo0fEO6EeO1n4ptXLh016Q
-.youtube.com	TRUE	/	TRUE	1771550704	__Secure-3PSIDCC	AKEyXzXUKpGijeouQhbU9Z3cCwdU8A9K8xxC_WwaAcz_sMXQ4olKX6a_ksDJc6ZG2epy59Owdw
+.doubleclick.net	TRUE	/	TRUE	1774576796	IDE	AHWqTUlngtlO4f3I6WkYy2r46yOdlpjKiUVOUeSlAoob_MrYkzDr7XPtb2nxf3ry
+.google.com	TRUE	/	TRUE	1771552802	__Secure-3PSIDCC	AKEyXzUsHR_lgVMl6gnlBVmbdPvcmXnI3OhLVOdiIlQGJg71ZEdd8kGuPKfgLz8_vZ19JLJr
+.youtube.com	TRUE	/	FALSE	1771552803	SIDCC	AKEyXzVMsF6VWrVPbKnbGKWbpwua5ZFzSRIcrUfgIUXEq0i7amxTAjOe_17cLANUHdirul8oPA
+.youtube.com	TRUE	/	TRUE	1771552803	__Secure-1PSIDCC	AKEyXzWnZ_v2KZx5rOxFQxeZ45D4lB_x6SWG_DMKSvEe3cakKlTOCFTo9s2U1nRT7s-gTqp6Ng
+.youtube.com	TRUE	/	TRUE	1771552803	__Secure-3PSIDCC	AKEyXzV1-88jHlcxIJzRhC9UV9dUyaIrHdMPJ8F7udhZYGSO4KajS229GCt1OW57nl7KijJWag
